@@ -1,0 +1,11 @@
+.img-fluid{
+    max-width: 500px;
+}
+.items2{
+    justify-content: flex-end;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
