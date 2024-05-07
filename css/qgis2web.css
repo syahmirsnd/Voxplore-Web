@@ -3,8 +3,8 @@
             position: relative;
             display: flex;
             justify-content: center ;
-            max-width: 800px; /* Atur lebar maksimum peta */
-            border: 1px solid #000; /* Berikan border */
+            max-width: 800px;
+            border: 1px solid #000;
         }
         th {
             text-align: left;
