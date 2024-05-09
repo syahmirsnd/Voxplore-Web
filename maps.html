@@ -183,11 +183,25 @@
     >
       Klik untuk
       <a
-        href="https://www.figma.com/file/xWCs5NWnamR09Syx8IRrBL/VOXPLORE-(TEKVIR-X-SIG)?type=design&node-id=0-1&mode=design&t=YbPxkiLjieoTluw3-0"
+        href="#"
+        id="downloadLink"
+        onclick="showSweetAlert()"
         style="font-weight: bolder; color: #25014b"
         >Download Voxplore</a
       >
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+      // Function to show SweetAlert modal
+      function showSweetAlert() {
+        Swal.fire({
+          title: "Download Voxplore",
+          html: '<img src="images/voxploreqr.jpg" style="max-width: 100%; height: auto;"><p><a href="https://drive.google.com/file/d/1Ybsg4dWHyFApSis9tQkZ6XvH08cBxcgK/view" style="color: #25014b">Download Voxplore</a></p>',
+          showCloseButton: true,
+          showConfirmButton: false,
+        });
+      }
+    </script>
     <div
       class="text-center poppins-medium"
       style="
