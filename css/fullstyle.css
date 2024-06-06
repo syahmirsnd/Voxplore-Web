@@ -9,3 +9,12 @@
     font-weight: 500;
     font-style: normal;
   }
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #25014b;
+}
+body::-webkit-scrollbar-thumb {
+    background: #CE1A9E;
+}

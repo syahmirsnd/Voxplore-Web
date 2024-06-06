@@ -2,8 +2,8 @@
             background-color: #ffffff;
             position: relative;
             display: flex;
-            justify-content: center ;
-            max-width: 800px;
+            justify-content: left ;
+            max-width: 700px;
             border: 1px solid #000;
         }
         th {
@@ -58,10 +58,9 @@
         .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
             border: 0px;
         }
-        }
-        .fa, .leaflet-container, a {
+        /* .fa, .leaflet-container, a {
             color: #000000 !important;
-        }
+        } */
         .leaflet-control-zoom-in, .leaflet-control-zoom-out,
         .leaflet-control-locate a,
         .leaflet-touch .leaflet-control-geocoder-icon,
